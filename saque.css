@@ -1,0 +1,57 @@
+h1{
+    color: #003366;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.texto>p{
+    color: #003366;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+}
+
+input{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50vh;
+    height: 5vh;
+    text-align: center;
+    font-size: 60px;
+    color: #003366;
+    background: linear-gradient(to top, #00336634, #ffffff,  #ffffff);
+    border: solid 1px #003366;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50vh;
+    height: 6vh;
+    font-size: 50px;
+    color: #003366;
+    border: solid 1px #003366;
+    border-radius: 10px;
+    background-color: #003366;
+    color: whitesmoke;
+    margin-top: 50px;
+}
+
+form>p{
+    color: #003366;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}

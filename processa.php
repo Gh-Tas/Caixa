@@ -1,7 +1,30 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="processa
+    .css">
+    <title>Saque</title>
+    <style>
+        header {
+                background-color: #003366;
+                color: white;
+                padding: 10px;
+                text-align: center;
+            }
+            * {
+                margin: 0;
+            }
+    </style>
+</head>
+<body>
+    <?php include "header.php";?>
+
+    <?php
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
         $valor = $_POST['valor'];
-        $notas = [100, 50, 20, 10, 5, 2, 1];
+        $notas = [100, 50, 20, 10, 5, 2];
         $notas_saque = [];
         $resto = $valor;
         foreach($notas as $nota){
@@ -21,3 +44,5 @@
         }
     }
 ?>
+</body>
+</html>
