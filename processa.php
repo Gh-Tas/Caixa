@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -18,14 +18,15 @@
             margin: 0;
         }
 
-        p{
+        img{
+            width: 100px;
             
         }
     </style>
 </head>
 
 <body>
-
+        
     <?php include "header.php"; ?>
 
     <main>
@@ -47,7 +48,7 @@
             } else {
                 echo "<p> Valor sacado: R$ $valor </p>";
                 foreach ($notas_saque as $nota => $qtd) {
-                    echo "<p> $qtd nota(s) de R$ $nota </p>";
+                    echo "<p> $qtd nota(s) de R$ <img src='imagens/$nota.jpg'></p>";
                 }
             }
         }
